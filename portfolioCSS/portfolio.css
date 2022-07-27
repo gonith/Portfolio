@@ -32,7 +32,7 @@ header nav{
 }
 
 #portext h1 em {
-    color: #ccfbff;
+    color: #bdeaff;
     font-style: normal;
 }
 
@@ -78,13 +78,13 @@ header nav #main_pages li a:before, header nav #main_pages li a:after {
 header nav #main_pages li a:before {
     left: 0px;
     top: 0px;
-    background: #fecece;
+    background: #bdeaff;
 }
 
 header nav #main_pages li a:after {
     right: 0px;
     bottom: 0px;
-    background: #ccfbff;
+    background: #fecece;
 }
 
 header nav #main_pages li a:hover:before, header nav #main_pages li a:hover:after {
@@ -97,10 +97,10 @@ header #portext h1 {
     text-transform: uppercase;
     letter-spacing: 5px;
     cursor: pointer;
-    border-right: 2px solid #ccfbff;
-    border-bottom: 2px solid #ccfbff;
-    border-left: 2px solid #fecece;
-    border-top: 2px solid #fecece;
+    border-right: 2px solid #fecece;
+    border-bottom: 2px solid #fecece;
+    border-left: 2px solid #bdeaff;
+    border-top: 2px solid #bdeaff;
     padding: 5px;
 }
 
@@ -252,8 +252,8 @@ nav {
 #text {
     width: 55%;
     height: 72%;
-    border-right: 2px solid #ccfbff;
-    border-bottom: 2px solid #ccfbff;
+    border-right: 2px solid #bdeaff;
+    border-bottom: 2px solid #bdeaff;
     padding-right: 40px;
     padding-left: 40px;
     padding-bottom: 10px;
@@ -300,7 +300,7 @@ section {
 
 @media (max-width: 1100px) {
     #text {
-        width: 40%;
+        width: 43%;
         height: 90%;
         border: none;
     }
@@ -319,8 +319,9 @@ section {
 @media (max-width: 768px) {
     #containerqui {
         flex-direction: column;
-        height: 1130px;
+        height: 1140px;
         box-shadow: none;
+        justify-content: space-between;
     }
 
     #photo {
@@ -334,12 +335,17 @@ section {
         height: 350px;
         border-radius: 5px;
         object-fit: cover; 
-        object-position: 0 40%;
+        object-position: top;
     }
 
     #text {
         width: 82%;
         box-shadow: none;
+        font-size: 12px;
+    }
+
+    #text p {
+        margin-top: -3px;
     }
 }
  /* ASIDE */
@@ -415,7 +421,7 @@ aside  {
 
 @media (max-width: 1100px) {
     #passions {
-        width: 30%;
+        width: 50%;
     }
     #cadretxt {
         width: 89%;
@@ -470,13 +476,13 @@ article {
 }
 
 article h2 {
-    color: #ccfbff;
+    color: #bdeaff;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
 article h3 {
-    color: #ccfbff;
+    color: #bdeaff;
     text-transform: uppercase;
     letter-spacing: 2.5px;
 }
@@ -630,6 +636,7 @@ footer #liens .logo {
 footer #liens .logo img {
     width: 100%;
     height: 100%;
+    border-radius: 10px;
 }
 
 .logo:hover {
