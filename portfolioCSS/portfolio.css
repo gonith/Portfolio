@@ -518,7 +518,6 @@ article p {
 
 #maquette img:hover {
     transform: scale(1.3);
-    image-rendering: auto;
 }
 
     /* MEDIA QUERIES - PROJETS */
@@ -586,6 +585,10 @@ article p {
     #maquette img {
         object-position: top left;
         object-fit: cover;
+    }
+
+    #maquette img:hover {
+        transform: scale(1);
     }
 }
 
