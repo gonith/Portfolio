@@ -322,6 +322,7 @@ section {
         height: 1140px;
         box-shadow: none;
         justify-content: space-between;
+        margin-top: 10px;
     }
 
     #photo {
@@ -432,9 +433,9 @@ aside  {
 @media (max-width: 768px) {
     aside {
         width: 99%;
-        height: 375px;
+        height: 400px;
         justify-content: space-around;
-        margin-top: 25px;
+        margin-top: 10px;
     }
 
     #passions {
@@ -451,7 +452,7 @@ aside  {
     #passions #cadretxt {
         border: none;
         box-shadow: none;
-        height: 100%;
+        height: 95%;
     }
 
     #cadretxt p {
@@ -616,13 +617,13 @@ article {
 @media (max-width: 768px) {
     article {
         flex-direction: column;
+        margin-top: 0px;
     }
 
     .projet {
         width: 98%;
         box-shadow: none;
         height: 300px;
-        margin-top: -40px;
     }
 
     .projet .titre {
@@ -641,7 +642,7 @@ article {
         height: 220px;
     }
 
-    .projet .imgprojet_p2 {
+    .projet .imgprojet {
         height: 220px;
     }
 
