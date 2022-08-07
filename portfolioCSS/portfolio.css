@@ -699,11 +699,11 @@ footer #liens .logo img {
 
 @media (max-width: 768px) {
     footer {
-        height: 80px;
+        height: 50px;
     }
     footer #liens {
         width: 95%;
-        height: 80px;
+        height: 50px;
     }
     footer #liens h2 {
         font-size: 15px;
